@@ -6,26 +6,30 @@
 /*Фон*/
 body {
 	background-color: #1E1E1E;
+	width: 1440px;
 }
 
-.light {
-	filter: blur(196px);
-	opacity: 0.5;
+.circle {
+	position: relative;
+	z-index: -1;
 }
 
 .light .red {
-	position: absolute;
+	position: fixed;
 
 	background-color: #961A1A;
 
 	width: 311px;
     height: 311px;
     left: -102px;
-    top: 251px;    
+    top: 251px;
+
+	filter: blur(196px);
+	opacity: 0.5;    
 }
 
 .light .purple {
-	position: absolute;
+	position: fixed;
 
 	background-color: #833AB4;
 
@@ -33,10 +37,13 @@ body {
 	height: 259px;
 	left: 602px;
 	top: -154px;
+
+	filter: blur(196px);
+	opacity: 0.5;
 }
 
 .ball-red-middle {
-	position: absolute;
+	position: fixed;
 	width: 83px;
 	height: 83px;
 	left: 519px;
@@ -50,7 +57,7 @@ body {
 }
 
 .ball-red-small {
-	position: absolute;
+	position: fixed;
 
 	width: 28px;
 	height: 28px;
@@ -66,7 +73,8 @@ body {
 }
 
 .ball-purple {
-	position: absolute;
+	position: fixed;
+
 	width: 60px;
 	height: 60px;
 	left: 868px;
@@ -81,13 +89,125 @@ body {
 
 /*Шапка*/
 header {
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 1140px;
-	height: 73px;
-    left: 150px;
-    top: 46px;
-
+	width: 1140px;
 	
-	position: relative;
+	margin-top: 46px;
+	
+	margin-left: auto;
+    margin-right: auto;
 }
+
+.container {
+	margin-top: 11px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.logo-box {
+	width: 695px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 140px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.logo-1 {
+	width: 35px;
+	height: 24px;
+}
+.logo-2 {
+	width: 96px;
+	height: 14px;
+}
+
+.menu {
+	width: 503px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.menu-list {
+	display: flex;
+	list-style-type: none;
+}
+
+.menu-list-item:nth-child(n + 2) {
+	margin-left: 30px;
+}
+
+.menu-link {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+
+	color: #E4E5EA;
+}
+
+.text {
+	margin-top: 10px;
+	width: 140px;
+
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #E4E5EA;
+}
+
+.contacts {
+	width: 308px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.telephone {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: right;
+	color: #E4E5EA;
+}
+
+.menu-soc {
+	width: 116px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.menu-list-soc {
+	display: flex;
+	list-style-type: none;
+}
+
+.menu-list-item-soc:nth-child(n + 2) {
+	margin-left: 34px;
+}
+
+.menu-link-soc {
+	width: 16px;
+	text-decoration: none;
+
+	color: #E4E5EA;
+}
+
+/*Основной блок*/
