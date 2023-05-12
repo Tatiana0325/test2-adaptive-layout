@@ -211,3 +211,140 @@ header {
 }
 
 /*Основной блок*/
+.block {
+	width: 1140px;
+	margin-top: 90px;
+	
+	margin-left: auto;
+    margin-right: auto;
+
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title-block {
+	width: 362px;
+}
+
+.title-header {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 58px;
+
+	color: #E4E5EA;
+}
+
+.title-header_grad {
+	font-weight: 900;
+
+	background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.title-box {
+	margin-top: 30px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #E4E5EA;
+}
+
+.information {
+	width: 300px;
+	text-align: right;
+}
+
+.title-info {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #E4E5EA;
+	display: inline-block;
+}
+
+.grad-red {
+	font-weight: 900;
+	text-transform: uppercase;
+
+	background: linear-gradient(92deg, #FCB054 0.01%, #FD1D1D 90%), #E4E5EA;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.grad-yellow {
+	font-weight: 900;
+	text-transform: uppercase;
+
+	background: linear-gradient(92deg, #FCB045 70%, #FD1D1D 150%), #E4E5EA;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.text-info {
+	margin-top: 40px;
+
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-info-items {
+	width: 135px;
+	color: #E4E5EA;	
+}
+
+.text-info-item:nth-child(n + 2) {
+	margin-top: 30px;
+}
+
+.info-header {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.info-text {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.btn-info {
+	margin-top: 60px;
+
+	width: 262px;
+	height: 61px;
+
+	background: #4077F3;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #E4E5EA
+}
+
